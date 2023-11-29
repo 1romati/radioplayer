@@ -1,31 +1,77 @@
 Give answers in swedish to the following questions in a text-file in your repo:
 
-1. Explain the importance of semantic elements in web 
-development according to accessibility guidelines. 
-Provide examples of at least two semantic HTML elements 
-and clarify how they enhance accessibility for users with disabilities.
-Svar:
+1. 
+Semantiska HTML-element är avgörande för tillgängligheten 
+i webbutveckling, speciellt för användare med funktionshinder. 
+Dessa element möjliggör tydlig struktur i webbinnehåll, vilket 
+är nödvändigt för hjälpmedel. Exempelvis, <header> innehåller 
+rubriker och navigeringslänkar, vilket skapar en begriplig layout. 
+<nav> definierar navigeringslänkar som hjälper användare att hitta 
+relevant innehåll. Användningen av semantiska HTML-element är grundläggande 
+för att skapa en tillgänglig och användarvänlig webbmiljö.
 
-2. Describe the significance of color contrast in web 
-design concerning accessibility. How does adhering to color 
-contrast guidelines benefit users with visual impairments, 
-and what are the recommended contrast ratios as per WCAG standards?
-Svar:
 
-3. Discuss the role of alternative text (alt text) for 
-images in accordance with accessibility guidelines. 
-Why is it crucial to include descriptive alt text, and 
-how does this contribute to making web content more accessible? 
-Provide examples to illustrate your explanation.
-Svar:
+2. 
+Color contrast är avgörande inom webbdesign för tillgänglighet, 
+särskilt för användare med synnedsättningar. Med rätt verktyg kan 
+webbplatser säkerställa att test och interaktiva element är läsbara 
+för alla. Enligt WCAG-riktlinjerna bör text och interaktiva element 
+ha ett kontrastförhållande på minst 4,5:1 för att garantera tillgänglighet 
+för personer med synnedsättning. Att följa dessa riktlinjer är nödvändigt 
+för att skapa en inkluderande webbupplevelse för alla användare.
 
-4. Explain the purpose of landmarks in creating accessible 
-web content. How do landmarks aid in navigation for users 
-of assistive technologies, and can you provide examples of 
-commonly used landmark elements in HTML?
-Svar:
 
-5. Describe the significance of proper form labeling. 
-Why is it important to label form elements, and what strategies
-can developers implement to ensure effective labeling for improved accessibility?
-Svar:
+3. 
+Alt-text är avgörande för webbtillgänglighet, särskilt för 
+synnedsatta användare. Genom beskrivande alt-text kan dessa 
+användare förstå bildinnehållet och uppleva webben på lika 
+villkor som andra. Alt-texten fokuserar på bildens syfte, 
+inte utseende, och är kortfattad och beskrivande. Särskilt 
+vid länkade bilder är det viktigt att alt-texten förklarar 
+funktionen och vad som händer när användaren klickar på bilden. 
+Alt-text spelar en nyckelroll i att skapa en inkluderande digital upplevelse.
+
+
+4. 
+Landmärken är kritiska i webbutveckling för att göra webbinnehåll 
+tillgängligt, särskilt för användare av hjälpmedel som skärmläsare. 
+De hjälper användare att identifiera och navigera till viktiga 
+sektioner på webbsidan, vilket möjliggör effektiv navigation och 
+förståelse av innehållet. Landmärken har tre huvudroller:
+
+Navigationshjälp: 
+Underlättar användarnas navigering till olika sektioner 
+på webbsidan, inklusive huvudinnehållet och andra viktiga områden.
+
+Programmatisk struktur: 
+Ger användare med hjälpmedelsteknik insikt om layouten. 
+Det är särskilt viktigt för dem som använder skärmläsare för att navigera.
+
+Semantisk märkning: 
+Landmärken bör komplettera den naturliga semantiska märkningen, 
+som HTML-rubriker och listor. Dessa är tolkbara av hjälpmedelstekniker 
+med WAI-ARIA-medvetenhet.
+
+Exempelvis representerar <header> inledande innehåll eller 
+gruppnav för en sida, medan <nav> markerar en sektion med 
+navigeringslänkar, som en meny eller ett index. Genom att 
+inkludera dessa landmärkeselement i HTML-strukturen kan 
+utvecklare markant förbättra tillgängligheten på sina webbplatser.
+
+
+5. 
+Att ge beskrivande etiketter till varje formulärelement är 
+avgörande för att användare ska förstå deras syfte. Det är 
+nödvändigt att etiketterna är kopplade till sina kontroller 
+så att användare, när de fokuserar på ett formulärelement, 
+både kan höra eller se dess beskrivning. Detta är särskilt 
+viktigt för användare med hjälpmedel, vilket gör det möjligt 
+för dem att förstå webbplatsens syfte genom formulärelementen.
+
+För att förbättra tillgängligheten kan utvecklare använda HTML-etiketter, 
+där <label> associeras med formulärelement. 
+Exempelvis kan koden <label for="username">Användarnamn:</label><input type="text" ...> 
+användas för att berätta för användaren att här ska de skriva sitt användarnamn. 
+Denna metod möjliggör att användare med hjälpmedel både kan höra och se beskrivningen 
+av varje formulärelement, vilket markant förbättrar användarupplevelsen 
+och tillgängligheten på webbplatsen.
